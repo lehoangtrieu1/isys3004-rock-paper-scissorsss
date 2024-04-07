@@ -27,9 +27,9 @@ function play(user) {
         losses++
     }
 let myMessage ="Computer chose rock, you " + result + "!" +
-"/n/n" + wins + " wins" +
-"/n"   + losses + "losses" +
-"/n"   + draws + "draws";
+"\n\n" + wins + " wins" +
+"\n"   + losses + "losses" +
+"\n"   + draws + "draws";
 alert(myMessage)
 say(myMessage)
 }
