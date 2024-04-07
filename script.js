@@ -26,10 +26,10 @@ function play(user) {
         result = "lose";
         losses++
     }
-    alert("Computer chose rock, you " + result + "!" +
+let myMessage ="Computer chose rock, you " + result + "!" +
 "/n/n" + wins + " wins" +
 "/n"   + losses + "losses" +
-"/n"   + draws + "draws");
+"/n"   + draws + "draws";
 alert(myMessage)
 say(myMessage)
 }
